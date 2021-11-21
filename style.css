@@ -1,0 +1,182 @@
+
+.logo {
+    height: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+header {
+    background-color: rgb(122, 120, 120);
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+header input {
+    background-image: url("https://www.alandeko.com/media/product_images/92698_2000000926988_3_sized.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 1.25rem;
+    padding: .5rem .5rem .5rem 3.5rem;
+    margin: 0 auto;
+
+}
+
+.searchBox {
+    display: flex;
+    position: relative;
+}
+
+.searchBox img {
+    height: 2.5rem;
+}
+
+.hero {
+    align-items: center;
+    background-image: url("https://alchetron.com/cdn/nasha-russia-10e16634-0780-4a06-8473-3b83ceca881-resize-750.png");
+    display: flex;
+    height: 40rem;
+    justify-content: center;
+}
+
+.hero h1{
+    color: yellow;
+    font-size: 3rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.content {
+    display: block;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.blockwrp {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.middleblock {
+    padding-top: 1rem;
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    width: 70%;
+}
+
+.pictures img {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+
+.content img {
+    border-radius: 50%;
+    height: 15rem;
+    width: 15rem;
+}
+
+.content h2, h3 {
+    color: skyblue;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.content a {
+    display: block;
+}
+
+.middlecont img {
+    height: 20rem;
+    width: 12rem;
+}
+
+.email {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.footeris {
+    background-color: rgb(37, 7, 94);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0 2rem;
+    text-align: center;
+}
+
+.footeris h3 {
+    padding-top: 1rem;
+}
+
+.footeris a {
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 900px){
+    header {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .logo {
+        padding: 0;
+    }
+
+    .content {
+        margin-top: -10rem;
+    }
+
+    .middlecont img {
+        height: 10rem;
+    }
+
+    .pictures {
+        justify-content: space-between;
+    }
+
+    .middleblock {
+        display: inline-block;
+        text-align: left;
+        padding: 2.5rem 2rem 2.5rem 1.5rem;
+        width: 40%;
+    }
+
+    .middlecont {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .footBlock {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .blockwrp {
+        flex-direction: row;
+    }
+
+    main p {
+        margin: 0 auto;
+        width: 60%;
+    }
+    .footeris {
+        flex-direction: row;
+
+    }
+    .footWrap {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 60%;
+    }
+}
